@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 1.6;
+  background: #dfdff6;
+}
+h1 {
+  font-size: clamp(4em, 5vw, 6em);
+  font-weight: 400;
+  text-align: center;
+  color: #000;
+}
+footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1.7rem, 2.5vw, 2rem);
+  height: 10rem;
+  margin-top: 2rem;
+}
+header {
+  height: unset;
+}
+img {
+  display: block;
+  margin: 1.5rem auto 0;
+  object-fit: cover;
+  opacity: 0.2;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+button {
+  width: 20rem;
+  height: 5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+button:hover,
+button:active {
+  border: 1px solid #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+  img {
+    width: 45rem;
+    height: 20rem;
+  }
+}
+@media only screen and (min-width: 500px) {
+  img {
+    width: 45rem;
+    height: 20rem;
+  }
+}
+@media only screen and (min-height: 450px) {
+  header {
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  button {
+    width: 23rem;
+    height: 6rem;
+    font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  }
+}

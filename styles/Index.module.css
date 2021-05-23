@@ -1,0 +1,43 @@
+.divBG {
+  background: #fff;
+  max-width: 65em;
+  margin: 0 auto 0;
+  padding-top: 1em;
+  padding-bottom: 1.5rem;
+  border-radius: 0;
+}
+.intro {
+  width: 85%;
+  font-size: clamp(1.7rem, 2.5vw, 2rem);
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+.introLink {
+  display: grid;
+  place-items: center;
+  margin: 10rem auto 0;
+  width: min(65vw, 25rem);
+  font-size: clamp(2.2rem, 2.5vw, 2.5rem);
+  color: #fff;
+  font-weight: 700;
+
+  padding: 1.7rem 4.5rem;
+  background: #ff051c;
+  border-radius: 10px;
+  line-height: normal;
+  text-align: center;
+  transition: all 0.2s;
+}
+.introLink:hover,
+.introLink:focus {
+  box-shadow: 0 0 25px rgba(33, 33, 33, 0.2);
+}
+@media only screen and (min-width: 600px) {
+  .divBG {
+    margin: 2em auto 0;
+    border-radius: 10px;
+    padding-top: 0;
+  }
+}

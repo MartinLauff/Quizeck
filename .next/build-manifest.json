@@ -1,0 +1,45 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-8683bd742a84c1edd48c.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/NaxlCyfQjvDZ2s9tlKAZN/_buildManifest.js",
+    "static/NaxlCyfQjvDZ2s9tlKAZN/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-3f869a2a1e85a3c66b1c.js",
+      "static/chunks/framework-27a3197dce3e6cc88d86.js",
+      "static/chunks/commons-59a84f6b3ad0464c9c82.js",
+      "static/chunks/main-a384c0bb0e84de8a97c9.js",
+      "static/css/bd99d51382b8488bd24e.css",
+      "static/chunks/pages/index-1e717945506fa5d8f5bb.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-3f869a2a1e85a3c66b1c.js",
+      "static/chunks/framework-27a3197dce3e6cc88d86.js",
+      "static/chunks/commons-59a84f6b3ad0464c9c82.js",
+      "static/chunks/main-a384c0bb0e84de8a97c9.js",
+      "static/css/df0b5b4177fb7a1a536e.css",
+      "static/chunks/pages/_app-adcd1ff3771fa59090f7.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-3f869a2a1e85a3c66b1c.js",
+      "static/chunks/framework-27a3197dce3e6cc88d86.js",
+      "static/chunks/commons-59a84f6b3ad0464c9c82.js",
+      "static/chunks/main-a384c0bb0e84de8a97c9.js",
+      "static/chunks/pages/_error-107a05589c0edd02ac6f.js"
+    ],
+    "/quiz": [
+      "static/chunks/webpack-3f869a2a1e85a3c66b1c.js",
+      "static/chunks/framework-27a3197dce3e6cc88d86.js",
+      "static/chunks/commons-59a84f6b3ad0464c9c82.js",
+      "static/chunks/main-a384c0bb0e84de8a97c9.js",
+      "static/css/cc11368651f875de9c6e.css",
+      "static/chunks/pages/quiz-6702161ef442de9bd052.js"
+    ]
+  },
+  "ampFirstPages": []
+}

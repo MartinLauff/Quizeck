@@ -1,0 +1,61 @@
+.question {
+  font-size: clamp(1.7rem, 2.5vw, 2rem);
+  font-weight: 700;
+  position: absolute;
+  width: max-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+.img {
+  position: relative;
+}
+.count {
+  font-size: clamp(1.7rem, 2.5vw, 2rem);
+  font-weight: 400;
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0.5rem 2rem;
+}
+.btns > * {
+  flex: 1 0 20rem;
+}
+
+@media only screen and (min-width: 470px) {
+  .btns {
+    width: 70%;
+    margin: 1.5rem auto;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .btns {
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .btns {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1380px) {
+  .btns {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1570px) {
+  .btns {
+    width: 34%;
+  }
+}
+@media only screen and (min-width: 1850px) {
+  .btns {
+    width: 30%;
+  }
+}

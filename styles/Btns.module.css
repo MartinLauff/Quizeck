@@ -1,0 +1,19 @@
+.correct {
+  background: #00c99a;
+}
+.wrong {
+  background: #ff051c;
+}
+.nic {
+  background: #fff;
+}
+.layer {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  background: transparent;
+}
