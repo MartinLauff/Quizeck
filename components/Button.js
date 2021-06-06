@@ -18,13 +18,13 @@ const Button = ({ txt, correct }) => {
   const selectAnswer = (e) => {
     if (e.target.dataset.ans) {
       setclassName(btnStyles.correct);
-      setScore(score + 1);
+      setScore((currScore) => currScore + 1);
     } else {
       setclassName(btnStyles.wrong);
     }
 
     setActive(!active);
-    setCurrentQuestionIndex(currentQuestionIndex + 1);
+    setCurrentQuestionIndex((currQuestionIndex) => currQuestionIndex + 1);
     setVisibility(!visibility);
   };
 
