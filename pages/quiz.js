@@ -34,7 +34,7 @@ const quiz = () => {
   //   const timer = setTimeout(() => {
   //     setActive(!active);
   //     setVisibility(!visibility);
-  //     setCurrentQuestionIndex(currentQuestionIndex + 1);
+  //     setCurrentQuestionIndex((currQuestionIndex) => currQuestionIndex + 1);
   //     console.log(currentQuestionIndex + ' timer');
   //   }, 8000);
 
@@ -66,7 +66,7 @@ const quiz = () => {
 
   const clickNext = () => {
     setActive(!active);
-    setOrder(order + 1);
+    setOrder((currOrder) => currOrder + 1);
     setVisibility(!visibility);
 
     setNextQuestion();
