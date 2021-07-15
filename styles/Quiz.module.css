@@ -12,7 +12,7 @@
 }
 
 .animation {
-  animation: progress-animation 10s forwards;
+  animation: progress-animation 4s forwards;
   animation-play-state: running;
 }
 
@@ -75,6 +75,9 @@
 .endScreen button:hover {
   box-shadow: 0 0 35px rgba(255, 255, 255, 0.2);
   border: 0;
+}
+.endScreen button:focus {
+  background: rgb(194, 194, 194);
 }
 .endScreen h2 {
   color: #fff;

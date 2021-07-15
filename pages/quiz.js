@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Link from 'next/link';
 import { BtnContext } from '../context/BtnContext';
 
@@ -34,9 +34,8 @@ const quiz = () => {
   //   const timer = setTimeout(() => {
   //     setActive(!active);
   //     setVisibility(!visibility);
-  //     setCurrentQuestionIndex(currentQuestionIndex + 1);
-  //     console.log(currentQuestionIndex + ' timer');
-  //   }, 8000);
+  //     setCurrentQuestionIndex((currQuestionIndex) => currQuestionIndex + 1);
+  //   }, 4000);
 
   //   return () => {
   //     if (active) {
@@ -66,7 +65,7 @@ const quiz = () => {
 
   const clickNext = () => {
     setActive(!active);
-    setOrder(order + 1);
+    setOrder((currOrder) => currOrder + 1);
     setVisibility(!visibility);
 
     setNextQuestion();
