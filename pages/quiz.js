@@ -29,21 +29,21 @@ const quiz = () => {
     startGame();
   }, []);
 
-  ///////////////// Timer //////////////
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setActive(!active);
-  //     setVisibility(!visibility);
-  //     setCurrentQuestionIndex((currQuestionIndex) => currQuestionIndex + 1);
-  //     console.log(currentQuestionIndex + ' timer');
-  //   }, 8000);
+  /////////////// Timer //////////////
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setActive(!active);
+      setVisibility(!visibility);
+      setCurrentQuestionIndex((currQuestionIndex) => currQuestionIndex + 1);
+      console.log(currentQuestionIndex + ' timer');
+    }, 8000);
 
-  //   return () => {
-  //     if (active) {
-  //       clearTimeout(timer);
-  //     }
-  //   };
-  // }, [order]);
+    return () => {
+      if (active) {
+        clearTimeout(timer);
+      }
+    };
+  }, [order]);
 
   const startGame = () => {
     setShuffledQuestions(questions.sort(() => Math.random() - 0.5));
