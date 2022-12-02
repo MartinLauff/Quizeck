@@ -36,7 +36,7 @@ const quiz = () => {
       setVisibility(!visibility);
       setCurrentQuestionIndex((currQuestionIndex) => currQuestionIndex + 1);
       console.log(currentQuestionIndex + ' timer');
-    }, 8000);
+    }, 10000);
 
     return () => {
       if (active) {
