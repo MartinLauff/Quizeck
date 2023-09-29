@@ -1,2 +1,7 @@
 # Quizeck
-Quizeck is a geography quiz that consists of 20 questions. Are you ready to test your knowledge? If yes, start here.
+Quizeck is a geography quiz that consists of 20 questions. Are you ready to test your knowledge? If yes, start [here]("https://quizeck.vercel.app/").
+
+## Landing page
+![Snímka obrazovky 2023-09-29 204528](https://github.com/MartinLauff/Quizeck/assets/72349751/9c630d18-4781-4142-87b1-55b043b6286f)
+
+## Game preview
